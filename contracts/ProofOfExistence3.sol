@@ -16,7 +16,7 @@ contract ProofOfExistence3 {
     external
   {
     bytes32 proof = proofFor(document);
-    storeProof(proof;
+    storeProof(proof);
   }
 
   // helper function to get a document's sha256
